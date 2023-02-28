@@ -10,7 +10,7 @@ export default class App extends React.Component {
     alert('bbbb')
     if ("OTPCredential" in window) {
       const ac = new AbortController();
-
+      alert('start')
       navigator.credentials
         .get({
           otp: { transport: ["sms"] },
