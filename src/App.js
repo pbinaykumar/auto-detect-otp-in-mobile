@@ -8,7 +8,7 @@ export default class App extends React.Component {
   };
   componentDidMount() {
     alert('bbbb')
-    if ("PVRoof" in window) {
+    if ("OTPCredential" in window) {
       const ac = new AbortController();
 
       navigator.credentials
