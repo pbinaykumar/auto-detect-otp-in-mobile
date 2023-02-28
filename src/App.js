@@ -22,8 +22,8 @@ export default class App extends React.Component {
           ac.abort();
         })
         .catch((err) => {
-          ac.abort();
           alert(err);
+          ac.abort();
         });
     }
   }
